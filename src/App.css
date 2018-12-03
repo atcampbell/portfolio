@@ -1,32 +1,119 @@
-.App {
+body {
+  background-color: rgb(244,244,244) !important;
+}
+
+.mylink {
+  color: rgb(51,51,51);
+  text-decoration: underline;
+  text-decoration-color: rgb(60, 228, 149);
+}
+
+.mylink:hover {
+  color: rgb(60, 228, 149);
+  cursor: pointer;
+}
+
+.read-more {
+  color: rgb(51,51,51);
+  text-decoration: underline;
+  text-decoration-color: rgb(60, 228, 149);
+  font-size: 20px;
+  padding-top: 20px;
+  cursor: pointer;
+  display:inline-block;
+  user-select: none;
+
+}
+
+.read-more:hover {
+  color: rgb(60, 228, 149);
+}
+
+.header {
+  font-size: 6.5vw;
+  padding-top: 10vh;
+}
+
+.header-description {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.projects {
   text-align: center;
+  padding-top: 30px;
+  font-size: 5.9vw;
+  text-decoration-color: rgb(60, 228, 149);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.work-heading {
+  text-align: center; 
+  padding-top: 30px;
+  font-size: 5.9vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.work-heading-text {
+  display:inline-block;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: rgb(60, 228, 149);
+  user-select: none;
 }
 
-.App-link {
-  color: #61dafb;
+.work-heading-text:hover {
+  color: rgb(60, 228, 149);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.work-image {
+  max-width: 70%;
+  font-size: 10vw;
+  padding-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-text {
+  text-align: center;  
+  margin-top: 30px;
+}
+
+@media only screen and (min-width : 992px) { 
+  .header {
+    padding-top: 10vh;
+    font-size: 4vw;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .projects {
+    font-size: 2.5vw;
+  }
+
+  .read-more {
+    padding-top: 40px;
+  }
+
+  .work-heading {
+    font-size: 2.5vw;
+  }
+
+  .header-description {
+    text-align: left; 
+    font-size: 20px;
+    padding-top: 40px;
+  }
+
+  .work-text {
+    text-align: left;
+    font-size: 20px; 
+    margin-top: 30px;
+    border-left: 2px solid;
+    border-color: rgb(60, 228, 149);
+    padding-left: 10px;
+  }
+
+  .work-image {
+    max-width: 70%;
+    padding-top: 30px;
+    float: right;
   }
 }

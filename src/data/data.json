@@ -1,0 +1,29 @@
+{
+    "workItems": [
+        {
+            "title": "Gap in the Air",
+            "image": "/images/gap.jpg",
+            "description": "Generative audio-visual installation presented at ‘Gap in the Air’ a festival of Sonic Art at the Talbot Rice Gallery. The installation was built on nonlinear dynamical systems, where outputs of the audio and visual were mutually influential. Sounds were projected from a Sound Shower directional speaker mounted on the walkway behind and above the viewer, reflecting off the surface of the projection. Developed with Java, Pure Data and Processing."
+        },
+        {
+            "title": "Ultrahaptics",
+            "image": "/images/haptic.jpg",
+            "description": "Research project as part of a Masters degree at the University of Glasgow. Real time visual simulation of ultrasonic haptic feedback - a technology which projects focused ultrasound from an array of transducers targeted at the user's hand allowing the user to 'feel' virtual objects in 3D space. Visualisations were based on studies in cognitive science and neurophysiology with the aim of graphically representing the subjective experience of interacting with ultrasonic interfaces. Developed with C++, Qt, OpenGL, Ultrahaptics and Leap Motion."
+        },
+        {
+            "title": "Dr. Doppler",
+            "image": "/images/doppler.jpg",
+            "description": "Audio and sound design for Adam Donovan's Dr. Doppler using pulsar and granular synthesis designed to take advantage of the robot's unique spatial characteristics. Dr Doppler explores spatialisation using the Doppler Effect. Dr Doppler is a persistence of hearing robot, think of persistence of vision (POV) and apply this to sound. The robot has two arms two meters apart each holding a speaker, these speakers spin up to speeds of 500RPM. At this speed it is able to create 16 virtual speaker positions per second allowing the work to be hyper spatial. Adjusting timed audio pulses I am able to make the audio seem to be moving in any direction of the circular rotation. Light pulses at the end of each arm create a separation between vision and hearing further enhancing the sonic effect."
+        },
+        {
+            "title": "Sonic Juggling Balls",
+            "image": "/images/steim.jpg",
+            "description": "Wireless juggling performance interface developed while an intern at STEIM, Amsterdam. Developed in collaboration with David Endhoven and Nicolo Merendino; I was responsilble for gesture recognition, sound synthesis and design. Developed with C, Arduino and Pure Data"
+        },
+        {
+            "title": "Recurring Points",
+            "image": "/images/recurring.jpg",
+            "description": "Recurring PointsGenerative audio visual Android application developed as part of my MSc at Edinburgh University. Audio and visual material was generated from a nonlinear dynamical system and synthesised in real-time with granular and pulsar synthesis techniques. Developed with Java, Pure Data and Processing."
+        }
+    ]
+}
